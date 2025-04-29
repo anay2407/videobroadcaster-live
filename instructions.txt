@@ -1,0 +1,13 @@
+Step 1 : conda create -n brodcaster python=3.11
+
+step 2 : conda activate brodcaster
+
+step 3 : conda install pytorch==2.3.1 torchvision==0.18.1 torchaudio==2.3.1 pytorch-cuda=11.8 -c pytorch -c nvidia
+
+step 4 : pip install -r requirements.txt
+
+step 5 : open python interpreter 
+
+step 6 : import torc
+
+step 7: print(print(torch.cuda.is_available()))
